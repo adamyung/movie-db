@@ -1,0 +1,41 @@
+.movie-card {
+  position: relative;
+  width: 100%;
+
+  &__link {
+    position: relative;
+    display: block;
+    padding-bottom: 150%;
+  }
+
+  &__poster {
+    position: absolute;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(#000000, 0.3);
+  }
+
+  &__rating {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #13c977;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 0.7em;
+    line-height: 1;
+  }
+
+  &__title {
+    font-weight: 400;
+    margin: 10px 0;
+    opacity: 0.9;
+  }
+
+  &__release {
+    font-weight: 400;
+    margin: 0;
+    color: #adc4cc;
+    font-size: 0.75em;
+  }
+}

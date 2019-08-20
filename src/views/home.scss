@@ -1,0 +1,41 @@
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  padding-top: 180px;
+  padding-bottom: 50px;
+  background: radial-gradient(circle at 50% 0, #073950 0%, #081b22 7%);
+
+  &__logo {
+    width: 60px;
+    font-weight: 700;
+    color: #13c977;
+    border: 3px solid #13c977;
+    border-radius: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    position: absolute;
+    top: 47px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &__title {
+    font-size: 1.35em;
+    margin: 50px 20px 0 20px;
+    opacity: 0.9;
+  }
+
+  &__loader-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.4);
+    display: none;
+
+    &.show {
+      display: block;
+    }
+  }
+}

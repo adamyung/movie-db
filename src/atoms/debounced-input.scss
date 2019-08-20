@@ -1,0 +1,21 @@
+.debounced-input {
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 50px;
+  box-sizing: border-box;
+
+  &::-webkit-input-placeholder {
+    color: #13c977;
+  }
+  &:-ms-input-placeholder {
+    color: #13c977;
+  }
+  &::placeholder {
+    color: #13c977;
+  }
+}

@@ -1,0 +1,70 @@
+.movie-container {
+  position: relative;
+  min-height: 100vh;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+  background-color: #081b22;
+  padding-top: 56%;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+
+  &__go-back {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+  }
+
+  &__content {
+    padding: 0 20px;
+  }
+
+  &__details {
+    position: relative;
+    padding-left: calc(40% + 20px);
+  }
+
+  &__poster {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(#000000, 0.5);
+  }
+
+  &__rating {
+    font-size: 0.8em;
+    margin: 10px 0;
+    color: #adc4cc;
+  }
+
+  &__length {
+    font-size: 0.8em;
+    margin: 0;
+    color: #adc4cc;
+  }
+
+  &__divider {
+    margin: 1.5em 0;
+    border-top: 1px solid rgba(#adc4cc, 0.4);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  &__overview {
+    color: #adc4cc;
+    line-height: 1.5;
+    font-size: 0.9em;
+
+    &-title {
+      font-size: 1.1em;
+      margin: 0.9em 0;
+    }
+  }
+}
